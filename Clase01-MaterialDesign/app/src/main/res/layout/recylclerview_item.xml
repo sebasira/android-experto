@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- TITULO -->
+    <TextView
+        android:id="@+id/peliTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- DESCRIPCION -->
+    <TextView
+        android:id="@+id/peliDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- DIVISOR DE LISTA -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+</LinearLayout>
