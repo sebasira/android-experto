@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/groupDesayuno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/opt_cafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAFE"
+            android:padding="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/estilo_radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/opt_cortado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CORTADO"
+            android:padding="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/estilo_radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/opt_mate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MATE"
+            android:padding="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/estilo_radiobutton"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnPedir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedir Desayuno"/>
+</LinearLayout>
