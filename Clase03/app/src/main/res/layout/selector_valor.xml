@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/selector_valor_valor_text_size"
+        android:text="0"
+        android:enabled="false"
+        android:background="@null"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/selector_valor_label_text_size"
+        android:text="VALOR"
+        android:layout_below="@+id/txtValor"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/btnMenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boton_menos"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boton_mas"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8dp"/>
+
+</merge>
